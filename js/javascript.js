@@ -1,6 +1,3 @@
-console.log("hello World")
-
-//
 function computerPlay(){
     cThrow = Math.floor(Math.random() * 3) + 1;
 
@@ -50,5 +47,11 @@ function playRound(player, computer){
 
 }
 
-console.log(playRound(playerThrow(), computerPlay()))
+const rock = document.querySelector('#rock');
+rock.addEventListener('click', function(){console.log(playRound("rock", computerPlay()));});
 
+const paper = document.querySelector('#paper');
+paper.addEventListener('click', function(){console.log(playRound("paper", computerPlay()));});
+
+const scissors = document.querySelector('#scissors');
+scissors.addEventListener('click', function(){console.log(playRound("scissors", computerPlay()));});
