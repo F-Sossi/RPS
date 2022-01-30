@@ -46,7 +46,7 @@ function playRound(player, computer){
     }
 
 }
-
+// adding some comments to check something
 const rock = document.querySelector('#rock');
 rock.addEventListener('click', function(){console.log(playRound("rock", computerPlay()));});
 
