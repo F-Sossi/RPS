@@ -15,7 +15,7 @@ function computerPlay(){
             break;
     }
 }
-
+//adding different commment
 function playerThrow(){
 
     while(true){
