@@ -1,0 +1,19 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40 px;
+}
+
+button {
+    color: blue;
+    gap: 10px;
+}
+
+#output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: violet;
+}
